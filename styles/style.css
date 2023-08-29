@@ -9,6 +9,7 @@ body {
 }
 
 .btn-primary {
+    color: white;
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
@@ -21,6 +22,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 0 200px;
 
 }
 
@@ -37,8 +39,24 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 50px;
+
 }
 
 nav a {
     text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Header style */
+.banner {
+    display: flex;
+    padding: 30px 30px 30px 200px;
+    align-items: center;
+}
+
+.banner img {
+    width: 584px;
+    height: 670px;
 }
